@@ -18,3 +18,24 @@ This project demonstrates the implementation of **Logistic Regression**, a super
 - Predicted outputs on test data.
 - Evaluated model performance using a **confusion matrix**.
 - Visualized classification results for better understanding.
+
+  
+# Day 02 - SVM Classifier
+
+📌 **Overview**  
+This project demonstrates the implementation of the **Support Vector Machine (SVM) Classifier**, a supervised machine learning algorithm used for classification tasks. The model is trained using the same **Social_Network_Ads.csv** dataset to predict whether a user purchases a product based on certain features. SVM works by finding the optimal decision boundary (**hyperplane**) that best separates different classes in the dataset.
+
+📂 **Files Included**  
+- **svmClassifier.py** → Python script containing model training, prediction, and visualization logic using the SVM classifier.  
+- **Social_Network_Ads.csv** → Dataset used for training and testing the SVM model.  
+
+🚀 **What I Learned**  
+- Loaded and explored a dataset using **Pandas**.  
+- Performed data preprocessing by selecting features and labels.  
+- Split the dataset into **training and testing sets**.  
+- Applied **feature scaling using StandardScaler** to improve model performance.  
+- Trained an **SVM Classifier using sklearn**.  
+- Understood how SVM finds an **optimal hyperplane** to classify data points.  
+- Predicted outputs on test data.  
+- Evaluated model performance using a **confusion matrix**.  
+- Visualized classification results to better understand decision boundaries.
